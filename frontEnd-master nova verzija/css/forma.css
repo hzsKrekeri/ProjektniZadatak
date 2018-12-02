@@ -1,0 +1,36 @@
+.tabcontent {
+	display: none;
+}
+
+.tablinks {
+	display: inline;
+	padding: 2%;
+	background-color: #007BFF;
+	color: white;
+	margin: 10px;
+	border-radius: 7px;
+	box-shadow: none;
+	transition: border 0.1s, background-color 0.1s, color 0.1s;
+}
+
+.tablinks:hover {
+	background-color: #0069D9;
+}
+
+.tablinks:active {
+	border: 2px solid #007BFF;
+	background-color: white;
+	color: #0069D9;
+}
+
+.tab {
+	margin: 30px 0px;
+}
+
+#Header {
+	margin-bottom: 70px;
+}
+
+#prviClan, #drugiClan, #treciClan, #cetvrtiClan {
+	width: 100%;
+}

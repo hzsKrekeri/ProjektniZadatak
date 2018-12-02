@@ -1,0 +1,12 @@
+#Header {
+	margin-bottom: 100px;
+}
+
+#listaTimova {
+	position: relative;
+	background-color: rgba(0, 105, 217, 0.1);
+	border-radius: 10px;
+	padding: 2%;
+	display: block;
+	margin-bottom: 50px;
+}

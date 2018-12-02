@@ -1,0 +1,156 @@
+body {
+    margin: 2em auto;
+    background-color: white;
+    color: white;
+}
+  
+form div {
+    margin-bottom: 0.5em;
+}
+
+form div label, form div input {
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+form {
+    margin: 0px;
+    width: 70%;
+    color: #5a5a5a;
+    padding: 2%;
+    position: relative;
+    left: 15%;
+}
+.btn-secondary {
+    background-color: rgb(56, 56, 56);
+    color: rgb(196, 196, 196);
+    text-align: center;
+    font-style: bold;
+    border: none;
+}
+.btn-secondary:hover {
+    background-color: rgb(56, 56, 56);
+    color: rgb(196, 196, 196);
+    border: none;
+}
+.btn-secondary:focus {
+    background-color: rgb(56, 56, 56);
+    color: rgb(196, 196, 196);
+    border: none;
+}
+
+.form-control {
+    background-color: rgb(56, 56, 56);
+    border: none;
+    color: rgb(223, 223, 223);
+}
+#output {
+    background-color: rgb(56, 56, 56);
+    border: none;
+    
+}
+.col-md-4 {
+    padding: 3%;
+}
+.clanoviTima {
+    display: inline-block;
+    border: 2px solid rgb(56, 56, 56);
+    padding: 2%;
+    margin: 2%;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 800px) {
+    .clanoviTima {
+        width: 40%;
+    }
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  display: grid;
+  font-family: Avenir;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+* {
+  box-sizing: border-box;
+}
+.inp {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  max-width: 280px;
+}
+.inp .label {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  font-size: 16px;
+  color: #9098a9;
+  font-weight: 500;
+  transform-origin: 0 0;
+  transition: all 0.2s ease;
+}
+.inp .border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #07f;
+  transform: scaleX(0);
+  transform-origin: 0 0;
+  transition: all 0.15s ease;
+}
+.inp input {
+  -webkit-appearance: none;
+  width: 100%;
+  border: 0;
+  font-family: inherit;
+  padding: 12px 0;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 2px solid #c8ccd4;
+  background: none;
+  border-radius: 0;
+  color: #223254;
+  transition: all 0.15s ease;
+}
+
+.inp input:not(:placeholder-shown) + span {
+  color: #5a667f;
+  transform: translateY(-26px) scale(0.75);
+}
+.inp input:focus {
+  background: none;
+  outline: none;
+}
+.inp input:focus + span {
+  color: #07f;
+  transform: translateY(-26px) scale(0.75);
+}
+.inp input:focus + span + .border {
+  transform: scaleX(1);
+}
+
+.inputClass {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    padding: 1%;
+    margin-bottom: 30px;
+}
+
+.labelClass {
+    margin: 0px;
+    font-size: 1.2em;
+}
+
+.divClass {
+    margin: 30px;
+}

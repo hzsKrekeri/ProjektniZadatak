@@ -1,0 +1,4 @@
+
+INSERT INTO team (name,description,photo_url,team_uuid) VALUES ("g","g","g","1");
+
+PRAGMA table_info(team_member);
