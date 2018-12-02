@@ -1,0 +1,8 @@
+1. "POST" metoda krejira novi sadrzaj na serveru, "PUT" metoda ga samo osvezava.
+2. Na xml body, umesto json-a server ce odgovoriti sa statusom 400 "Bad Request Error".
+3. API -aplikacioni programski interfejs, definiše naèine na koji aplikacije mogu da zahtevaju usluge od biblioteka i operativnih sistema, kao i recnik i konvencije pozivanja koje programer treba da primeni kako bi koristio servise.
+4. U bazi postoje dve kolone, u jednoj kolini su sami letovi sa karakteristikama: uuid leta, vreme od kad do kad, mesto odakle dokle, avionska kompanija i broj slobodnih mesta, 
+u drugoj su sva mesta sa karakteristikama: id mesta(redni broj na letu), uuid leta, da li je rezervisano i ako jeste id rezervacije(u slucaju da se dva coveka zovu isto da nebi doslo do zabune).
+Na front-end delu moci ce da se obavi prikaz svih letova i pretraga po nekom od karakteristika, za odabrani let moci ce da se proveri koliko ima slobodnih mesta i bice moguca rezervacija.
+5. 2 naèina za obezbeðivanje responzivnosti veb stranice u CSS-u su pozivanje Bootstrap-a i JQuery-ja
+6. Pozicioniranje web strane u pretraživaèu je moguæe u "title" tagu(odabirom dobrog naslova stranice), meta "description" tagu (stavljenjem opisa sajta) i  dodavanjem Markup-ova.

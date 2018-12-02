@@ -179,6 +179,18 @@ def update_team(data):
     conn.close()
     return data
 
+def update_team_member(data): #change first_name, last_name, school, city, phone_number and email
+    conn = _connect()
+    c = conn.cursor()
+    
+    member_id=data['id']
+    
+    query ="UPDATE team_member SET first_name=?, last_name=?, school=?, city=?, phone_number=?, email=?"
+    c.execute(query,(data['first_name'], data['last_name'], data['school'], data['city'], data['phone_number'], data['email']))
+    conn.commit()
+    c.close()
+    conn.close()
+    return data
 
 def delete_team(team_uuid):
     conn = _connect()

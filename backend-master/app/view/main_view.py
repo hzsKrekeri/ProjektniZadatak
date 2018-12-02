@@ -39,7 +39,7 @@ def single_team_view(team_uuid):
         return jsonify(response_body), 200
 
     if request.method == 'PUT':  # update the team
-        body = request.json
+        body = json.loads(request.json)
        
         updated = update_team(body)
         if updated is None:
@@ -77,5 +77,14 @@ def single_user_view(team_member_id):
 
         response_body = [t.to_dict() for t in userData]
         return jsonify(response_body), 200
-        
     
+    if request.method == 'PUT': #change user data by its ID
+        body = json.loads(request.json)
+        userNewData = update_team_member(body)#ID and changable things requiered!
+         
+        response_body = [t.to_dict() for t in userData]
+        if userData == None:
+            return jsonify(response_body), 204
+        return jsonify(response_body), 200
+
+        

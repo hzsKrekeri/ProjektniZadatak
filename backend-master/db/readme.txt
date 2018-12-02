@@ -1,0 +1,1 @@
+Ovde je baza podataka i neke od skripti koje su koriscene za njeno pravljenje, ostale su nazalost zaboravljene te je pozeljno ne brisati bazu.
